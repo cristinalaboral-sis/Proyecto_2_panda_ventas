@@ -26,6 +26,6 @@ El flujo de trabajo automatiza las siguientes tareas:
 ## 🚀 Instrucciones de Ejecución
 
 1. **Instalar dependencias:**
-   Asegúrate de instalar las librerías necesarias ejecutando en la terminal de VS Code:
+   Instala las librerías necesarias ejecutando en la terminal de VS Code:
    ```bash
    pip install pandas openpyxl pyarrow
