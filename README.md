@@ -16,3 +16,16 @@ El flujo de trabajo automatiza las siguientes tareas:
 - **PyArrow / FastParquet** (para la lectura y escritura en formato Parquet)
 
 ## 📁 Estructura del Repositorio
+
+- `proyecto_panda_ventas.ipynb`: Notebook con el pipeline completo de datos (Carga, Limpieza, Merge y Exportación).
+- `ventas.csv`: Dataset fuente de transacciones de ventas.
+- `productos.xlsx`: Catálogo maestro de productos en Excel.
+- `ventas_consolidadas.parquet`: Dataset final procesado y exportado en formato Parquet.
+- `README.md`: Documentación del proyecto.
+
+## 🚀 Instrucciones de Ejecución
+
+1. **Instalar dependencias:**
+   Asegúrate de instalar las librerías necesarias ejecutando en la terminal de VS Code:
+   ```bash
+   pip install pandas openpyxl pyarrow
